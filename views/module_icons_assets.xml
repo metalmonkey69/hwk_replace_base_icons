@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <!-- Stock/Inventory Module Icon Override -->
+        <record id="stock.stock_menu_root" model="ir.ui.menu">
+            <field name="web_icon">custom_stock_icon,static/description/icons/stock_icon.png</field>
+            <field name="web_icon_data" eval="False"/>
+        </record>
+        
+        <!-- Sales Module Icon Override -->
+        <record id="sale.sale_menu_root" model="ir.ui.menu">
+            <field name="web_icon">custom_stock_icon,static/description/icons/sale_icon.png</field>
+            <field name="web_icon_data" eval="False"/>
+        </record>
+        
+        <!-- Purchase Module Icon Override -->
+        <record id="purchase.menu_purchase_root" model="ir.ui.menu">
+            <field name="web_icon">custom_stock_icon,static/description/icons/purchase_icon.png</field>
+            <field name="web_icon_data" eval="False"/>
+        </record>
+        
+        <!-- Manufacturing Module Icon Override (if installed) -->
+        <record id="mrp.menu_mrp_root" model="ir.ui.menu">
+            <field name="web_icon">custom_stock_icon,static/description/icons/mrp_icon.png</field>
+            <field name="web_icon_data" eval="False"/>
+        </record>
+        
+        <!-- Accounting Module Icon Override (if installed) -->
+        <record id="account.menu_finance" model="ir.ui.menu">
+            <field name="web_icon">custom_stock_icon,static/description/icons/account_icon.png</field>
+            <field name="web_icon_data" eval="False"/>
+        </record>
+        
+        <!-- CRM Module Icon Override (if installed) -->
+        <record id="crm.crm_menu_root" model="ir.ui.menu">
+            <field name="web_icon">custom_stock_icon,static/description/icons/crm_icon.png</field>
+            <field name="web_icon_data" eval="False"/>
+        </record>
+        
+        <!-- Project Module Icon Override (if installed) -->
+        <record id="project.menu_main_pm" model="ir.ui.menu">
+            <field name="web_icon">custom_stock_icon,static/description/icons/project_icon.png</field>
+            <field name="web_icon_data" eval="False"/>
+        </record>
+    </data>
+</odoo>

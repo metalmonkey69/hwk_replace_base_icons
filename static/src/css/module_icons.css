@@ -1,0 +1,41 @@
+/* Custom styling for multiple module icons */
+.o_app[data-menu-xmlid="stock.stock_menu_root"] .o_app_icon {
+    background-image: url('/custom_stock_icon/static/description/icons/stock_icon.png') !important;
+}
+
+.o_app[data-menu-xmlid="sale.sale_menu_root"] .o_app_icon {
+    background-image: url('/custom_stock_icon/static/description/icons/sale_icon.png') !important;
+}
+
+.o_app[data-menu-xmlid="purchase.menu_purchase_root"] .o_app_icon {
+    background-image: url('/custom_stock_icon/static/description/icons/purchase_icon.png') !important;
+}
+
+.o_app[data-menu-xmlid="mrp.menu_mrp_root"] .o_app_icon {
+    background-image: url('/custom_stock_icon/static/description/icons/mrp_icon.png') !important;
+}
+
+.o_app[data-menu-xmlid="account.menu_finance"] .o_app_icon {
+    background-image: url('/custom_stock_icon/static/description/icons/account_icon.png') !important;
+}
+
+.o_app[data-menu-xmlid="crm.crm_menu_root"] .o_app_icon {
+    background-image: url('/custom_stock_icon/static/description/icons/crm_icon.png') !important;
+}
+
+.o_app[data-menu-xmlid="project.menu_main_pm"] .o_app_icon {
+    background-image: url('/custom_stock_icon/static/description/icons/project_icon.png') !important;
+}
+
+/* Common styling for all custom icons */
+.o_app_icon {
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+
+/* Hover effects for custom icons */
+.o_app:hover .o_app_icon {
+    opacity: 0.8;
+    transition: opacity 0.2s ease-in-out;
+}
